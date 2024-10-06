@@ -24,8 +24,8 @@ int main ()
 
 	ptr = malloc (5 * sizeof(int));
 
-	if (ptr != NULL)
-		printf("Memory created sucessfully\n");
+	if (ptr == NULL)
+		printf("Problemas ao alocar memoria\n");
 
 	for(int i = 0, j = 10; i < 5; i++, j+= 10)
 	{

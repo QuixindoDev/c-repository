@@ -25,7 +25,7 @@ uint64_t    fib(int n)
     static uint64_t arr[1337]={0};
     if (0 == n)
 	    return 0;
-    else if (1==n)
+    else if (1 == n)
 	    return 1;
     else
     {
